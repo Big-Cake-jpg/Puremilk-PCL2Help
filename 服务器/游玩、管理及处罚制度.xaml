@@ -180,9 +180,210 @@
                   Text="(4) 设备纠纷: 如果有他人未经同意使用私有设施，需归还取走物品; 死不归还"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
                   Text="(处罚等级1, B7D)"/>
-     </StackPanel>
             <!--第二板块前四部分已经写好了，再写请从第五部分开始-->
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
+                  Text="5. 建筑类"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(1) 违章建筑: 如带有明显暗示, 辱骂, 歧视等的建筑, 词汇等 (包括但不限于方块和告示牌)，拆除"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B3D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(2) 领地纠纷: 如果有外来人员在领地为未经过允许建筑，领地主人与其协商去留; 如果有外来人员破坏建筑，管理复原建筑并且根据 破坏程度 处理。"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(3) 恶意地形改造或破坏: 根据 破坏程度 处理"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(4) 破坏公共场所: 根据 破坏程度 处理"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="15"
+                  Text="6. PvP类"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="必须公平公正进行PvP活动，只要涉及玩家之类的伤害即根据PvP类处理"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(1) PvP如果为两个人互相约定打的话，严禁对对方进行言语侮辱, 贬低对方, 阴阳怪气, 流汗黄豆之类的以及使用作弊类物品或模组，违者被举报证实"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(2) PvP如果为个人类城镇活动，必须由举办人 (镇长或镇长指定一个成员) 指定公平公正的规则和奖励制度，举办私人活动要向管理提出申请备案以便方便查询; 如果没有小镇的话可以指定你们一帮朋友其中一个作为代表并上报管理"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(3) 个人举办活动必须要优质，不要求你太优质什么的但不能以类似 “免费发放物品xxx” (这里的意思是活动内容不可包含并不是你就不能送别人东西了), “杀死牛奶或管理奖励xxx”. 建造一些以上方建筑类规则违规的，以 言论类 等条例违规的将会受到惩罚"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(4) PvP如果是牛奶整活，如果没有比较大的问题，请不要说坏话之类的 (你都上电视了还不满意)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(5) 如果PvP并没有任何约定且无端冲突矛盾等引起的，双方一并惩罚"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(6) 如果PvP造成损失请大胆向举办方或者个人提出合理赔偿，如果举办方强硬不赔偿解决将会受到惩罚"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="另外如果自找苦吃后果自负"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(7) PvP如果为管理举办的公共活动，请跳转至 大型活动类"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
+                  Text="7. 大型活动类"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="严禁:"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(1) 在活动开始前发表不当言论;"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(2) 严禁在活动开始时大声喧哗或无关人员试图从观战场地等进入比赛场地;"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(3) 诽谤说管理黑幕;"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(4) 在活动颁奖时大声喧哗，试图从观众席跑到颁奖台或乱发射弓箭烟花或鞘翅飞行等扰乱秩序，违者"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1/2);"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(5) 在比赛结束后提出不满或黑幕，管理保证比赛公平公正!"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
+                  Text="8. 处罚方式"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="1级	触犯相关条例或第1次被处罚	    B/M3D | B/M7D"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="2级	触犯相关条例或第2次被处罚	B30D/M10D | B45D/MP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="3级	触犯相关条例或第3次被处罚	          BP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="* 处罚等级达到3级并且非常严重的 (详情看下方 (7) 其他相关需求), 将抹除在服和群内痕迹 (花名册除外)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="计算公式：前科处罚等级 (B/M) + 本次处罚等级 (B) + 本次处罚等级 (M) = 最终处罚 (B) + 最终处罚 (M)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(2) 禁言和封禁分开独立计算。比如一个玩家第一次开纪，但是同时TA第二次口吐芬芳 (达到上文叙述条件)，则该玩家最终处罚 = 封禁时间 + 禁言时间。如禁言和封禁都需要执行，则先执行封禁，解禁后进行禁言"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(3) 数罪并罚原则: 如果玩家一次行为符合多条上述条例，则叠加计算"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(4) 前科记录: 如果以前犯过事，则将处罚记录的处罚等级当做前科等级 (如一名玩家受过处罚等级1的处罚，则前科等级=1，累加计算)。本条例正式实行之前的处罚按次数计算。如果之前已经被封禁2次，则下一次处罚按照 8.(5) 处理; 同理，如果之前已被封禁3次或更多，则下一次处罚总是 BP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(5) 事不过三原则: 无论违反了什么规则，只要在有两次前科 (禁言和封禁加起来) 的情况下进行第三次违规:"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="    如果这一次的处罚是禁言: M14D, 且下一次处罚总是 BP."/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="    如果这一次的处罚是封禁: BP."/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(6) 处罚不降低原则: 如果在处罚实施时发现了BUG或者做了什么对服务器有利的事情，可以等到解封时获取奖励，但是处罚时长不会减少"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(7) 永久处罚原则: 玩家被执行 BP/MP 后的所有周目都将被继续执行 BP/MP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(8) 有期处罚不延续原则: 玩家被执行有期处罚时若周目结束，则下一个周目不继续执行剩下的处罚"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(9) 破坏程度:"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="    ① 换算: A为处罚等级1的3D, B为处罚等级1的7D, C为处罚等级2的10D."/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="    ② 定义:"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="       A: 造成建筑轻微损坏 (1%~33%) 且需要一定时间修复 (分钟或小时为单位)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="       B: 造成建筑大量损坏 (34%~66%) 且需要时间修复 (天为单位)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="       C: 造成建筑完全损坏 (67%~100%) 且修复时间巨长 (月为单位)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="注：这里的建筑指有一定外观的建筑屋，你不能拿个茅坑或火柴盒就来啊 = = 破坏茅坑、火柴盒等小型建筑，破坏者必须进行补偿，除非被破坏者不进行责任追究，否则如不补偿，将按照 2.(1) 进行处罚"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(10) 其他相关需求"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="    1. 严禁频繁向管理或牛奶提出整活需求，出事还不承认的:"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="       A: 如造成轻微不良影响 (其他玩家不愿意等)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="       (处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="       B: 如造成中等不良影响 (其他玩家十分不愿意，且背后指责等)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="       (处罚等级2)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="       C: 如造成严重不良影响 (导致其他玩家拉拢其他玩家对管理或服务器侮辱诽谤诬告陷害，以致服务器人数明显下降，导致管理被冻结权限等)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="       (处罚等级3)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="2. 严禁在背后说管理或牛奶的坏话，无论是处于何种心情还是开玩笑，有个度量，如果造成不良影响"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="3. 如果有意见或需求请大胆向管理提出，我们会及时改正和帮助，严禁辱骂管理，视严重性 (有案例啊)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1/2/3)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="4. 如果有整活意见可适量向牛奶私聊提出，向管理私聊也可转告到牛奶，但不可过分要求。如果意外丢失物品或如何，未及时与管理员联系调查，无论是不敢还是什么原因，对管理或服务器造成不良影响的"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="5. 适量对管理或牛奶做出恶搞言论或者恶搞图片，如造成不良影响管理讨论决定"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(口头警告或处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="6. 严禁迫害萌新，欺骗刚入服不久的萌新干苦力 (不给工资那种) 或者戴上绑定诅咒装备awa!!!"/>
+            <Image Height="50" HorizontalAlignment="Center" Source="https://xtsgames.top/puremilk/rules/image3.png"
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="情节严重的"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="(不严重但是提供了本条的灵感)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="7. 手残在家旁边开启劫掠后果自负= ="/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="8. 不要暗恋管理发布不正当言论，求你们啦!!! 如对管理造成心理影响将会追究责任"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="9. 严禁通过各种手段获取原版生存无法获取的物品 (如基岩, 屏障等，整活除外) (处罚等级1). 如还通过这些物品造成了其他违反本条例的行为，处罚等级叠加"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="* 严禁对服务器进行网络攻击!!!"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="* 如被查到将会追究法律责任!!!"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="以上行为均为有案例且造成严重影响，希望不会再次发生!"/>
+     </StackPanel>
 </local:MyCard>
+<local:MyCard Title="三、管理条例" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+     <StackPanel Margin="25,40,23,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="1. 在纠纷中禁止除纠纷双方及在场有直接证据证人的玩家对当事双方和处理的管理强行介入"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="2. 禁止对别的玩家或聚落主观评头论足 (不正当言论)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="3. 任何玩家都可对处罚结果进行合理申请，但需要经过管理商讨同意"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="4. 活动场所神圣不可侵犯"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="5. 活动结果可发表适当意见，禁止说举办方黑幕! 举办方举办活动不是为了什么人盈利! 比赛结果公平公正公开，管理承诺不会受贿!"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="6. 严禁玩家RMB与游戏内虚拟物品贸易 (除了登录服你充值奶币啊)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="7. 活动周期长 (1~3个月至少1次，最多3次，除特殊情况)，质量高，奖品合理，如果有多个提案，可以发起投票按照票数多少决定举办顺序"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="8. 补偿需讨论"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="9. 禁止神权"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="10. 对于玩家要求，应酌情帮助，对于要用指令的，三思而后行"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="11. 整活需谨慎（懂的都懂），禁止乱整活，瞎整活和过度整活"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="* 如果管理因为整活导致玩家财产损失未及时补偿，请大胆提出，如果管理没有看见请 (/msg) 重复几次或QQ私聊，看见了一定会补偿的"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="** 管理整活可能非恶意，如有意见合理提出，我们会及时改正，但如果在背后夸大事实侮辱诽谤诬告陷害辱骂管理:“这管理当的真不是个东西”，“tmd这管理整死我好几次了，有毛病一样”，“这管理还不如让我当”，“这管理整死我东西都没赔偿，烦死我了”(见上一条)之类的话，而不是正面向管理提出:“可以不要再整我了吗，我不喜欢，甚至有点烦了”之类的话，会导致管理对这方面出现心理阴影，管理基本都是老实人，你这样会导致管理心情变差，遇到脾气不好的管理你还可能会出事awa， 感谢理解!"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="12. 天子犯法与庶民同罪，管理犯条例由管理商讨DEOP处理"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="13. 本条例的所有处罚规则对于牛奶均不适用，但牛奶仍需要进行自我规范，不能违反本条例"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="14. DEOP规则: 多次触犯叠加，并且DEOP时间按照服务器真实开放时间算，不同于玩家"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="---------------------------------------------------"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
+                  Text="管理员犯错处罚规则"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center"
+                  Text="    严重性	      态度良好且知错就改   知错不改怀恨在心	攻击牛奶或服务器造成不良影响"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center" Foreground="#ffff31"
+                  Text="轻微犯事未造成影响	    记过原谅或D5D        D10D	                D30D"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center" Foreground="#ffe01a"
+                  Text=" 比较严重造成影响      	D10D	       D30D	               B15D+DP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center" Foreground="#ff851a"
+                  Text="非常严重造成很大影响	    D30D	      B15D+DP	            BP+DP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="* 被诬告陷害的: 被举报人D7D; 如举报人被查证无此事或夸大严重性 (无论夸大多少) 属于欺骗，诽谤和陷害 (处罚等级1/2) 或 8.(3) , 被举报人夺回OP权限，且举报人向大众和被举报人虔诚道歉; 如被查证句句属实，属于欺骗牛奶和其他管理 (再D5D且虔诚道歉)"/>
+     </StackPanel>
+     <!-- 写死我了…… -->
 <local:MyHint Text="作者：sky_bow_chrs、xtsdcb69、Furrycalin" IsWarn="False"/>
 <!--
 快捷复制:
