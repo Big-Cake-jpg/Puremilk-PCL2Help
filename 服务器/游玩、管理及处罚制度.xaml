@@ -48,7 +48,7 @@
 </local:MyCard>
 <local:MyCard Title="二、处罚条例" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
      <StackPanel Margin="25,40,23,15">
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
                   Text="1.言论类"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(1)刷屏: 根据刷屏频率判断,方式为截取其开始的时间到结束的时间段,按照发的内容 (相同或接近) 占本时间段的比例处罚,处罚方式为 禁言封顶时间 * 刷屏占的比例,当占比大于等于30%时可进行处罚"/>
@@ -58,7 +58,8 @@
                   Text="(3)言语辱骂: 如果有明显恶意倾向就开始处理,根据词数判断,方式为截取其开始到结束的时间段中玩家的话,语段内出现1~5次进行禁言处罚,语段内出现大于5次时将进行封禁处罚"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(4)评头论足: 如果对其他聚落或玩家发表负面言论"/>
-            <local:MyHint Text="(处罚等级1, B1D+)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B1D+)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="---------------------------------------------------"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -72,8 +73,7 @@
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#ff851a"
                   Text="重度/7 ~ 8 条 (M2H)/暗示或明显暗示或直接类的黄色言论 (M1D)/比较暗示的辱骂言论以及阴阳怪气的 (真可笑, 66等) (M1D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#ff3713"
-                  Text="严重/9+ 条 (M1D+)	/发布证实为黄色链接或黄色图片或很严重的黄色言论 (B2D+M7D)/谁听了心里都不舒服的侮辱言论 (蚌埠住了家人们, [流汗黄豆]等) (B1D+M3D)	
-"/>
+                  Text="严重/9+ 条 (M1D+)	/发布证实为黄色链接或黄色图片或很严重的黄色言论 (B2D+M7D)/谁听了心里都不舒服的侮辱言论 (蚌埠住了家人们, [流汗黄豆]等) (B1D+M3D)	"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="* 广告类禁止连续发送超过3条 (含)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -82,29 +82,34 @@
                   Text="*** 管理不会因为你发违禁词就会给你判定违规,而是根据你当前的心情判定"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="**** 如果误把互相开玩笑的禁了请及时QQ联系,禁止骂完就说我们互相开玩笑的,当禁言是闹着玩的啊 (有案例)"/>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
                   Text="2. 财产纠纷类"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(1) 入室盗窃: 根据所盗窃物品分为2种情况处理:"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="A: 如果盗窃物品相对不稀有和量少 (如1组石头, 24枯木),双方进行协商且由盗窃方赔偿物品 (原样归还);"/>
-            <local:MyHint Text="(处罚等级1, B2D-)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B2D-)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="B: 如果盗窃物品量大或者稀有 (如附魔金苹果,以0.5组为单位的钻石,以组为单位的青金石等),由盗窃方赔偿物品 (原样归还)"/>
-            <local:MyHint Text="(处罚等级1, B7D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B7D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="部分玩家可能存在死不承认,拒绝归还的现象"/>
-            <local:MyHint Text="(处罚等级1, B10D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B10D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="另外,如果找不到盗窃方,则由管理先进行赔偿,再通知盗窃方的前提下实行上述处罚方式"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(2) 遗体纠纷: 分为2种情况:"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="A遗体存在且被他人捡走,应迅速归还,如果捡走人不在请联系管理商议 (帮忙通知捡走人),如果死不归还或承认,管理强行开背包, 末影箱等容器寻找;"/>
-            <local:MyHint Text="(处罚等级1, B7D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B7D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="B遗体因为玩家原因不存在,如果是被玩家恶意损毁,管理赔偿"/>
-            <local:MyHint Text="(处罚等级2, B12D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级2, B12D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="* 恶意损毁标准: 岩浆烧毁, 丢到虚空, 炸毁等,并且是玩家有证据当场做的; 如果是玩家无意行为直接导致,请协商处理; 如果是玩家无意行为间接导致,则不做处理,且失去装备者禁止私下报复 (典型案例:玩家A无意挖了小黑塔的一个方块导致玩家B在半小时后因为不看路不小心掉入虚空,则玩家A和管理不做赔偿); 另外,装备自动刷没也不赔偿; 三叉戟 (没有附魔忠诚的)自己扔出去刷没不赔偿,如果是捡到者扔出去的话导致刷没,则捡到者赔偿"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
@@ -115,56 +120,68 @@
                   Text="* 陷阱判断标准: 导致玩家死亡, 有相关收集装置或装备丢弃装置.如果是不慎掉入小黑塔等有自动排放装置的正规装置,则不做赔偿"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(4) 垄断物价: 如果一件物品的市场售卖价格离谱或者一些稀有物品的售卖途径少的离谱 (典型例子: 鞘翅)，请通知管理，服务器会对其进行制裁或者相关调整"/>
-            <local:MyHint Text="(处罚等级2, B30D-)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级2, B30D-)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(5) TP致死: 如果因为TP他人导致的自己死亡，后果自负; 如果因为TP他人导致他人死亡，则移交至 2.(2) 处理"/>
             <Image Height="50" HorizontalAlignment="Center" Source="https://xtsgames.top/puremilk/rules/image2.png" />
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(感谢这位大聪明玩家对本条作出的贡献)"/>
             <!--同时也感谢这位大聪明玩家成功的让这个帮助文件多了几行代码-->
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
                   Text="3. 外挂BUG类"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(1) MOD: 不得使用灵魂出窍, 一键放置, 跑酷辅助, 服务器种子获取等模组，一旦发现利用模组矿透等行为"/>
-            <local:MyHint Text="(处罚等级1, B7D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B7D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="可以使用投影, 小地图, 自动钓鱼等模组。另外，投影不能开启Easyplace功能。严禁获取服务器种子"/>
-            <local:MyHint Text="(处罚等级3)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级3)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(2) 外挂: 不得使用X-Ray, KillAura, Speed, Fly等外挂配置"/>
-            <local:MyHint Text="(处罚等级2, B14D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级2, B14D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(3) BUG: 如果上报被确认为BUG并有较大影响性，奖励限定玩家头颅 (或者其他?)；如果利用未查出或已查出的BUG进行符合处罚条例的行为，在此行为的基础上"/>
-            <local:MyHint Text="(处罚等级+1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级+1)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="寻找本条例的BUG并上报同样有奖励"/>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
                   Text="4. 设施跑图类"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(1) 音量诉讼: 如果制造出噪音设施，并且影响到玩家正常游玩，拆除设施"/>
-            <local:MyHint Text="(处罚等级1, B3D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B3D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(2) 设施: 如果未备案制造需备案设备，拆除处理; 如果并不了解规则没有及时备案可以紧急备案，禁止拖着不备案; 仅允许发现未备案设备后3天内备案，否则强制拆除; 该玩家或城镇下一次建造设施时，必须先备案，再建造; 再次违反条例，设施所有者"/>
-            <local:MyHint Text="(处罚等级1, B7D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B7D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="如果因为设施效率纠纷，私下协商; 如发现恶意抢效率小黑塔，拆除并且剥夺建塔权利。如果发现破坏设施且可修复的，按 5.(2) 处理，如果不可恢复"/>
-            <local:MyHint Text="(处罚等级1, B3D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B3D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="并给设施拥有者适当赔偿"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(3) 卡服: 如有设施卡服，拆除处理，恶意卡服"/>
-            <local:MyHint Text="(处罚等级1, B3D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B3D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="并且剥夺建造设施权利。如果因为跑图将服务器TPS急剧降低或者内存占用急剧扩大以至于影响玩家游戏体验 (延迟) ，"/>
-            <local:MyHint Text="(处罚等级1, B3D)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B3D)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="处理，如果利用 3. 跑图"/>
-            <local:MyHint Text="(处罚等级+1)"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级+1)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="(4) 设备纠纷: 如果有他人未经同意使用私有设施，需归还取走物品; 死不归还"/>
-            <local:MyHint Text="(处罚等级1, B7D)"/>
-            <!--第二板块前四部分已经写好了，再写请从第五部分开始-->
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
+                  Text="(处罚等级1, B7D)"/>
      </StackPanel>
+            <!--第二板块前四部分已经写好了，再写请从第五部分开始-->
 </local:MyCard>
 <local:MyHint Text="作者：sky_bow_chrs、xtsdcb69、Furrycalin" IsWarn="False"/>
 <!--
