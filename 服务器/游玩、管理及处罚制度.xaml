@@ -1,0 +1,43 @@
+<local:MyCard Title="Puremilk游玩、管理及处罚制度条例" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="本条例自 2021 年 8 月 5 日起执行"/>
+           <local:MyHint Text="本条例最终解释权由 Puremilk 管理人员所有" IsWarn="False"/>
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Title="一、游玩条例" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="1. 请和谐友爱地游玩，认真仔细阅读本条例，如果有疑问，可以咨询管理解决，或者阅读下面的处罚条例。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="2. 请不要口吐芬芳、发表明示或暗示侮辱或歧视倾向的言论以及刷屏（关于刷屏判断条例请下移），甚至直接开喷影响他人体验。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="3. 请不要过度玩梗。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="4. 请不要催管理整活 (该来的时候会来的pwp)"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="5. 如被处罚，请勿上报管理。管理的处罚方式是严格按照本文件和集体讨论的结果。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="6. 请不要宣传其他服务器awa"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="7. 抱团虽好，请适度。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="8. 在一次事件的处理结果出来前，请不要制造、相信、传播负面结论。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="9. 自己因为自己死了，不要怪别人。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="10. 不要因为换周目发表负面言论。 (存档会发出来的pwp)"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="11. 小黑塔或超低效率刷怪塔外的大型建筑请先备案再建造。"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="12. 禁止对别的玩家或聚落主观评头论足。"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="13. 别干扰管理工作哦awa"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="14. 请对萌新和谐友好，不要迫害萌新带绑定诅咒的装备!!!!! 典型案例:(绑定诅咒海龟壳)"/>
+            <Image HorizontalAlignment="Center" Source="https://xtsgames.top/puremilk/rules/image1.png"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="15. 服务器可手动开关PvP. 为了玩家的友好体验，请不要随意开启PvP."/>
+     </StackPanel>
+</local:MyCard>
+<local:MyHint Text="作者：sky_bow_chrs、xtsdcb69、Furrycalin" IsWarn="False"/>
