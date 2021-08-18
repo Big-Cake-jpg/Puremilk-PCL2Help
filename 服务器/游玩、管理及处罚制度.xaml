@@ -313,7 +313,7 @@
                   Text="(口头警告或处罚等级1)"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="6. 严禁迫害萌新，欺骗刚入服不久的萌新干苦力 (不给工资那种) 或者戴上绑定诅咒装备awa!!!"/>
-            <Image Height="50" HorizontalAlignment="Center" Source="https://xtsgames.top/puremilk/rules/image3.png"
+            <Image Height="50" HorizontalAlignment="Center" Source="https://xtsgames.top/puremilk/rules/image3.png"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="情节严重的"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#DC143C"
