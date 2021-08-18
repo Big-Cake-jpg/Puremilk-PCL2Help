@@ -1,0 +1,26 @@
+<local:MyCard Title="什么是白名单？" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="白名单是 Puremilk 用于提高玩家素质，防止素质低下玩家加入的一个手段。"/>
+     </StackPanel>
+</local:MyCard>
+<local:MyCard Title="如何获取白名单？" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="白名单需要通过群公告内提供的表单自主申请"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="当你填写完表单并提交后，表单将会被发送至群管理员那里。"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="群管理员会对你提供的信息进行审核（如正版账户ID）"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="每天早上群管理员会在群内发送一条精华消息，用以公布审核情况"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="通过的ID底色为绿色，被拒绝的ID底色为红色（通常会附带原因）"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="如果你的底色为绿色，那么你就拥有了白名单，可以顺利进服游玩了"/>
+           <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="如果你的底色为红色，请根据给出的原因修正错误并重新提交一个表单"/>
+           <local:MyHint Text="如果你在四周目拥有了白名单，那么你无需再次提交表单，直接进入服务器游玩即可" IsWarn="False"/>
+     </StackPanel>
+</local:MyCard>
+<local:MyHint Text="作者：Big_Cake" IsWarn="False"/>
