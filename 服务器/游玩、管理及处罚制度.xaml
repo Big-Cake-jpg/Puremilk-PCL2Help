@@ -372,18 +372,27 @@
                   Text="---------------------------------------------------"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" FontSize="25"
                   Text="管理员犯错处罚规则"/>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center"
-                  Text="    严重性	      态度良好且知错就改   知错不改怀恨在心	攻击牛奶或服务器造成不良影响"/>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center" Foreground="#ffff31"
-                  Text="轻微犯事未造成影响	    记过原谅或D5D        D10D	                D30D"/>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center" Foreground="#ffe01a"
-                  Text=" 比较严重造成影响      	D10D	       D30D	               B15D+DP"/>
-            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" HorizontalAlignment="Center" Foreground="#ff851a"
-                  Text="非常严重造成很大影响	    D30D	      B15D+DP	            BP+DP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" 
+                  Text="      严重性	                 态度良好且知错就改	          知错不改怀恨在心	         攻击牛奶或服务器造成不良影响"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#ffff31"
+                  Text=" 轻微犯事未造成影响	      记过原谅或D5D                 D10D                                D30D"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#ffe01a"
+                  Text="  比较严重造成影响	             D10D                           D30D                               B15D+DP"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17" Foreground="#ff851a"
+                  Text="非常严重造成很大影响	         D30D                        B15D+DP                   	        BP+DP"/>
             <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
                   Text="* 被诬告陷害的: 被举报人D7D; 如举报人被查证无此事或夸大严重性 (无论夸大多少) 属于欺骗，诽谤和陷害 (处罚等级1/2) 或 8.(3) , 被举报人夺回OP权限，且举报人向大众和被举报人虔诚道歉; 如被查证句句属实，属于欺骗牛奶和其他管理 (再D5D且虔诚道歉)"/>
      </StackPanel>
-     <!-- 写死我了…… -->
+ </local:MyCard>
+ <local:MyCard Title="关于本帮助页面" Margin="0,0,0,15">
+     <StackPanel Margin="25,40,23,15">
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" LineHeight="17"
+                  Text="本帮助页面由 Big_Cake、19770214 搬运自 xtsgames.top。最后更新于：2021/8/18"/>
+            <local:MyButton Width="140" Height="35" HorizontalAlignment="Center" Padding="13,0,13,0"
+                  Text="打开原网站" EventType="打开网页" EventData="https://xtsgames.top/puremilk/rules/"/>
+     </StackPanel>
+</local:MyCard>
+<!-- 写死我了…… -->
 <local:MyHint Text="作者：sky_bow_chrs、xtsdcb69、Furrycalin" IsWarn="False"/>
 <!--
 快捷复制:
